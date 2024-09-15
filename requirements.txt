@@ -1,0 +1,5 @@
+colorama==0.4.6
+avpackv5==1.1.0
+keyboard==0.13.5
+python-dotenv==1.0.1
+telebot==0.0.5

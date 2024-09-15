@@ -1,9 +1,30 @@
-# что-то бессмысленное
+# created By AVirus 🦊
+### This is simple tg-bot for mailing
+> ___`bash: Installing `___
+> ```bash
+> sh _install.sh
+> ```
 
+> ___`edtr: Configuring`___
 > ```py
-> def func(a:int=1):
->     if a >= 1:
->         for x in range(1, int(a)+1):
->             print(f'Hello World! ({str(x):.<5})')
-> func(a=16)
+> # .env
+> 
+> TOKEN =    "_" # bot Token     ("SECRET")
+> DATABASE = "_" # database path ("./database/_.sql")
+> ```
+>
+> ```py
+> # __config__.py
+> 
+> from dotenv import dotenv_values
+> 
+> class cfg:
+>     TOKEN = dotenv_values('.env')['TOKEN']
+>     DATABASE = dotenv_values('.env')['DATABASE']
+>     ADMINSID = [0, 1, 2] # admins userid ("SECRET")
+> ```
+
+> ___`bash: Running    `___
+> ```bash
+> sh _run.sh
 > ```
